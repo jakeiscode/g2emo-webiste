@@ -1,9 +1,10 @@
 .main-container {
     display: flex;
+    background: #FFF;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .nav-container {
@@ -14,15 +15,18 @@
 }
 
 .Hero-container {
+    width: 1920px;
+    height: 895px;
+    /* flex-shrink: 0; */
+/* 
+
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 80vh;
-    width: 100%;
+    align-items: center; */
     opacity: 0.9;
-    background-image: url('../Assets/backwebsite.gif');
-    background-size: cover;
-    background-position: center;
+    background-image: url('../Assets/ant.jpg');
+    /* background-size: cover;
+    background-position: center; */
 }
 
 .hero-text {

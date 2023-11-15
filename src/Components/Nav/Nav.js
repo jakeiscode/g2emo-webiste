@@ -20,13 +20,16 @@ import "./Nav.css"
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link to="/technology">Technology</Link>
+        </li>
+        <li>
+          <Link to="/demo">Desmo</Link>
         </li>
         <li>
           <Link to="/contact">Contact</Link>
         </li>
         <li>
-          <Link to="/services">Services</Link>
+          <Link to="/technews">Tech News</Link>
         </li>
       </ul>
       <div className="hamburger" onClick={toggleMenu}>
